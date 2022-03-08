@@ -63,5 +63,8 @@
       "minor",
       "patch"
     ]
+  },
+  "resolutions": {
+    "tabster": "1.2.2"
   }
 }

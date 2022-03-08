@@ -17,6 +17,8 @@ export interface UseArrowNavigationGroupOptions {
    * available) when tabbing from outside of the group
    */
   memorizeCurrent?: boolean;
+
+  tabbable?: boolean;
 }
 
 /**
@@ -35,6 +37,7 @@ export const useArrowNavigationGroup = (options?: UseArrowNavigationGroupOptions
       cyclic: !!options?.circular,
       direction: axisToMoverDirection(options?.axis ?? 'vertical'),
       memorizeCurrent: options?.memorizeCurrent,
+      tabbable: options?.tabbable,
     },
   });
 };

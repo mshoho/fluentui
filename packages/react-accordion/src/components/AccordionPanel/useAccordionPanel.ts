@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { getNativeElementProps } from '@fluentui/react-utilities';
+import { useTabsterAttributes } from '@fluentui/react-tabster';
 import { useAccordionItemContext_unstable } from '../AccordionItem/index';
 import type { AccordionPanelProps, AccordionPanelState } from './AccordionPanel.types';
 
@@ -13,6 +14,8 @@ export const useAccordionPanel_unstable = (
   ref: React.Ref<HTMLElement>,
 ): AccordionPanelState => {
   const { open } = useAccordionItemContext_unstable();
+  const focusableProps = useTabsterAttributes({ focusable: { excludeFromMover: true } });
+
   return {
     open,
     components: {
@@ -21,6 +24,7 @@ export const useAccordionPanel_unstable = (
     root: getNativeElementProps('div', {
       ref,
       ...props,
+      ...focusableProps,
     }),
   };
 };
