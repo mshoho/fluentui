@@ -65,7 +65,7 @@
     "@fluentui/react-icons": "^2.0.245",
     "@griffel/babel-preset": "1.5.8",
     "@griffel/eslint-plugin": "^2.0.0",
-    "@griffel/jest-serializer": "1.1.24",
+    "@griffel/jest-serializer": "1.1.34",
     "@griffel/react": "^1.5.22",
     "@griffel/shadow-dom": "0.2.2",
     "@griffel/webpack-loader": "2.2.10",
