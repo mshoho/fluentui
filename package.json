@@ -223,7 +223,7 @@
     "enquirer": "2.3.6",
     "enzyme": "3.10.0",
     "enzyme-to-json": "3.6.2",
-    "esbuild": "0.25.0",
+    "esbuild": "0.25.5",
     "esbuild-loader": "4.1.0",
     "eslint": "9.17.0",
     "eslint-config-airbnb": "18.2.1",
@@ -376,7 +376,7 @@
   },
   "resolutions": {
     "@types/jest-axe/axe-core": "4.7.2",
-    "esbuild": "0.25.0",
+    "esbuild": "0.25.5",
     "@microsoft/api-extractor/typescript": "5.3.3",
     "swc-loader": "^0.2.6",
     "prettier": "2.8.8",
