@@ -205,7 +205,7 @@
     "embla-carousel-autoplay": "8.5.1",
     "embla-carousel-fade": "8.5.1",
     "enquirer": "2.3.6",
-    "esbuild": "0.25.0",
+    "esbuild": "0.25.10",
     "esbuild-loader": "4.1.0",
     "eslint": "9.25.1",
     "eslint-config-airbnb": "18.2.1",
@@ -351,7 +351,7 @@
   },
   "resolutions": {
     "@types/jest-axe/axe-core": "4.7.2",
-    "esbuild": "0.25.0",
+    "esbuild": "0.25.10",
     "@microsoft/api-extractor/typescript": "5.5.2",
     "swc-loader": "^0.2.6",
     "prettier": "2.8.8",
